@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webakery - Crafting Digital Solutions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1c1c1c;
+            color: #f5f5f5;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #ea1159;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        p {
+            max-width: 700px;
+            color: #d1d1d1;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        table {
+            width: 90%;
+            max-width: 900px;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            animation: slideIn 1s ease-out;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #3c3c3c;
+            font-size: 1.1rem;
+        }
+
+        th {
+            background-color: #ea1159;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        td {
+            color: #e0e0e0;
+            background-color: #2b2b2b;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .cta-button {
+            background-color: #ea1159;
+            color: #fff;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ea1159;
+            transform: scale(1.05);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            th, td {
+                padding: 10px;
+                font-size: 1rem;
+            }
+
+            .cta-button {
+                padding: 10px 25px;
+                font-size: 1.2rem;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <br />
+    <br />
+
+    <h1>Our Services & Pricing</h1><br />
+
+    <p>We offer a wide range of services to help you create a professional online presence. Whether you need a simple static website, a dynamic platform, or design services, our affordable pricing makes it easy to get started. Explore our offerings below and find the perfect fit for your business needs.</p>
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Feature(s)</th>
+                <th>Pricing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Static Website</td>
+                <td>
+                    • Sections<br>
+                    • SEO<br>
+                    • Contact<br>
+                    • Mobile Responsiveness<br>
+                    • Domain
+                </td>
+                <td class="price">Starts from ₹1499</td>
+            </tr>
+            <tr>
+                <td>Dynamic Website</td>
+                <td>
+                    • Sections<br>
+                    • SEO<br>
+                    • Contact<br>
+                    • Mobile Responsiveness<br>
+                    • Domain<br>
+                    • Login/Register<br>
+                    • Email/SMS Integration<br>
+                    • Database<br>
+                    • Animations
+                </td>
+                <td class="price">Starts from ₹3799</td>
+            </tr>
+            <tr>
+                <td>Poster Designing</td>
+                <td>
+                    • JPG<br>
+                    • PNG<br>
+                    • PDF
+                </td>
+                <td class="price">Starts from ₹599</td>
+            </tr>
+            <tr>
+                <td>YouTube Thumbnail</td>
+                <td>
+                    • Simple<br>
+                    • Advanced
+                </td>
+                <td class="price">Starts from ₹599</td>
+            </tr>
+            <tr>
+                <td>Chatbot</td>
+                <td>
+                    • 24/7 availability<br>
+                    • Analytics<br>
+                    • Live chat handoff<br>
+                    • Multi-language support
+                </td>
+                <td class="price">Starts from ₹1299</td>
+            </tr>
+        </tbody>
+    </table>
+<br />
+    <button class="cta-button" onclick="window.location.href='index.html'">Go Back</button>
+
+</body>
+</html>
